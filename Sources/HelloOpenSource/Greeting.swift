@@ -16,10 +16,10 @@ public final class Greeting {
         #elseif os(macOS)
             return "Hello macOS platform!"
 
-        #elseif os(macOS)
+        #elseif os(watchOS)
             return "Hello watchOS platform!"
 
-        #elseif os(macOS)
+        #elseif os(tvOS)
             return "Hello tvOS platform!"
 
         #else
