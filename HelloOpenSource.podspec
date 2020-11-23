@@ -6,5 +6,5 @@ Pod::Spec.new do |spec|
   spec.homepage      = "https://github.com/TraxxasWyls/HelloOpenSource.git"
   spec.summary       = 'Open Source'
   spec.source        = { git: "https://github.com/TraxxasWyls/HelloOpenSource.git", tag: "#{spec.version}"}
- spec.source_files   = "Sources/HelloOpenSource/**/*.{h,swift}"
+  spec.source_files   = "Sources/HelloOpenSource/**/*.{h,swift}"
 end

@@ -966,6 +966,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 			};
 			name = Debug;
 		};
@@ -973,6 +974,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 			};
 			name = Release;
 		};
